@@ -1,5 +1,8 @@
 # put this file in the %USERPROFILE%\Documents\WindowsPowerShell folder
 
+# if PowerShell says "execution of scripts is disabled on this system"
+# try to run command: Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+
 function prompt
 {
 	$curr_path = (get-location).toString()
