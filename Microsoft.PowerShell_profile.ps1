@@ -16,8 +16,8 @@ function prompt
 
 	# define prompt style
 	Write-Host ('[') -nonewline
-	Write-Host ("$(Get-Date -UFormat "%a %y %b %d") ") -nonewline -foregroundcolor 'DarkGreen'
-	Write-Host ("$(Get-Date -UFormat "%I:%M:%S %p")") -nonewline -foregroundcolor 'Red'
+	Write-Host ("$(Get-Date -UFormat "%a %b %d") ") -nonewline -foregroundcolor 'DarkGreen'
+	Write-Host ("$(Get-Date -UFormat "%H:%M:%S")") -nonewline -foregroundcolor 'Red'
 	Write-Host (']') -nonewline
 	Write-Host (" Vamirio ") -nonewline -foregroundcolor 'Green'
 	Write-Host ($curr_path) -foregroundcolor 'DarkGreen'
