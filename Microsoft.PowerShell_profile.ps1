@@ -19,7 +19,7 @@ function prompt
 	Write-Host ("$(Get-Date -UFormat "%a %b %d") ") -nonewline -foregroundcolor 'DarkGreen'
 	Write-Host ("$(Get-Date -UFormat "%H:%M:%S")") -nonewline -foregroundcolor 'Red'
 	Write-Host (']') -nonewline
-	Write-Host (" Vamirio ") -nonewline -foregroundcolor 'Green'
+	Write-Host (" vamirio ") -nonewline -foregroundcolor 'Green'
 	Write-Host ($curr_path) -foregroundcolor 'DarkGreen'
 
 	Write-Host ($suffix) -nonewline -foregroundcolor 'Cyan'
